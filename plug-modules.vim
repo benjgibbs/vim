@@ -1,0 +1,23 @@
+call plug#begin('~/.vim/plugged')
+  Plug 'flazz/vim-colorschemes'
+  Plug 'kien/ctrlp.vim'
+  Plug 'othree/html5.vim'
+  Plug 'yegappan/mru'
+  Plug 'Xuyuanp/nerdtree-git-plugin'
+  Plug 'scrooloose/nerdtree'
+  Plug 'wting/rust.vim'
+  Plug 'octol/vim-cpp-enhanced-highlight'
+  Plug 'godlygeek/tabular'
+  Plug 'bling/vim-airline'
+  Plug 'altercation/vim-colors-solarized'
+  Plug 'fatih/vim-go'
+  Plug 'tfnico/vim-gradle'
+  Plug 'pangloss/vim-javascript'
+  Plug 'maksimr/vim-jsbeautify'
+  Plug 'einars/js-beautify'
+  Plug 'plasticboy/vim-markdown'
+  Plug 'jvirtanen/vim-octave'
+  Plug 'derekwyatt/vim-scala'
+  Plug 'sukima/xmledit'
+
+call plug#end()
