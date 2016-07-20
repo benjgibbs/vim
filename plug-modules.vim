@@ -5,10 +5,11 @@ call plug#begin('~/.vim/plugged')
   Plug 'yegappan/mru'
   Plug 'Xuyuanp/nerdtree-git-plugin'
   Plug 'scrooloose/nerdtree'
-  Plug 'wting/rust.vim'
+  Plug 'rust-lang/rust.vim'
   Plug 'octol/vim-cpp-enhanced-highlight'
   Plug 'godlygeek/tabular'
-  Plug 'bling/vim-airline'
+  Plug 'vim-airline/vim-airline'
+  Plug 'vim-airline/vim-airline-themes'
   Plug 'altercation/vim-colors-solarized'
   Plug 'fatih/vim-go'
   Plug 'tfnico/vim-gradle'
@@ -19,5 +20,5 @@ call plug#begin('~/.vim/plugged')
   Plug 'jvirtanen/vim-octave'
   Plug 'derekwyatt/vim-scala'
   Plug 'sukima/xmledit'
-
+  Plug 'cespare/vim-toml'
 call plug#end()
