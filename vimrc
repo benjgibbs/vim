@@ -85,7 +85,7 @@ let g:rustfmt_autosave = 1
 
 " Tags
 fun! SetCTags()
-  setlocal tags=~/.tags
+  setlocal tags=~/.tags;/
   setlocal tags+=~/.local.tags
 endfun
 
@@ -95,5 +95,5 @@ fun! SetRustTags()
 endfun
 
 autocmd BufNewFile,BufRead *.rs call SetRustTags()
-autocmd BufNewFile,BufRead *.c, *.cpp, *.h, *.hpp, *.cxx call SetCTags()
+autocmd BufNewFile,BufRead *.c,*.cpp,*.h,*.hpp,*.cxx call SetCTags()
 autocmd BufWrite *.rs :silent exec "!rusty-tags vi --start-dir=" . expand('%:p:h') . "&"
