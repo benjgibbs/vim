@@ -1,5 +1,5 @@
 # Vim Setup
-With plugged setting up vim on each machine is now really easy.
+With vim-plug setting up vim on each machine is now really easy.
 ## Installation
  - check out this directory to ~/.vim
  - add a symlink from ~/.vimrc -> .vim/vimrc
